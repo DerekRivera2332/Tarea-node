@@ -1,11 +1,17 @@
 import React from "react";
 import Info from "./Info";
 import Ejemplo from "./Ejemplo";
+import "./Principal.css";
 function Main() {
   return (
     <main>
-      <Info />
-      <Ejemplo />
+      <div className="card intro">
+        <Info />
+      </div>
+
+      <div className="card example">
+        <Ejemplo />
+      </div>
     </main>
   );
 }

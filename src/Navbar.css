@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 40px;
-    background: #ffffff;
+    background-color: #111827;
     border-bottom: 1px solid #e8e8e8;
     font-family: "Inter", sans-serif;
 }
@@ -24,7 +24,7 @@
 .navbar-menu {
     display: flex;
     align-items: center;
-    gap: 25px; /* igual Node.js */
+    gap: 25px; /* separación entre elementos del menú */
     list-style: none;
     margin: 0;
     padding: 0;
@@ -39,13 +39,13 @@
 }
 
 .navbar-menu li:hover {
-    background: #f2f2f2; 
+     background-color: #111827;
 }
 
 .buscador{
     padding: 6px 14px;
     font-size: 15px;
     border-radius: 6px;
-    border: 1px solid #ccc;
+    border: 1px solid #9fdcff;
     outline: none;
 }

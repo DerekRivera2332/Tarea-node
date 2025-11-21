@@ -1,0 +1,57 @@
+/* === INFO (parte izquierda) === */
+
+.info-container {
+  max-width: 520px;
+  padding-top: 20px;
+}
+
+.info-container h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: white;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.info-container p {
+  font-size: 18px;
+  color: #d1d5db;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.info-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 70%;
+}
+
+.info-buttons .btn-green {
+  background: #66ff78;
+  color: black;
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.info-buttons .btn-gray {
+  background: #1f2937;
+  color: white;
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #374151;
+}
+
+.info-icons {
+  display: flex;
+  gap: 16px;
+  margin-top: 30px;
+}

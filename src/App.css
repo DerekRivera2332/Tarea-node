@@ -1,0 +1,34 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Esto empuja al footer hacia abajo */
+main {
+  flex: 1;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111827; 
+  color: #fff; 
+  font-family: Arial, sans-serif;
+}
+
+
+a {
+  color: #9fdcff;
+}
+
+a:hover {
+  color: white;
+}
+
