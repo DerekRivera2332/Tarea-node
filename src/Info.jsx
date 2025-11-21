@@ -9,8 +9,8 @@ function Info() {
         web apps, command line tools and scripts.
       </p>
       <div className="buttons">
-        <button className="primary">Download</button>
-        <button className="secondary">Documentation</button>
+        <button className="primary">Get Node</button>
+        <button className="secondary">Get recurity support</button>
       </div>
     </section>
   );
