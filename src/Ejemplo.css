@@ -1,5 +1,3 @@
-/* === EJEMPLO (parte derecha) === */
-
 .example-card {
   max-width: 600px;
   background: #0f172a;
@@ -8,7 +6,6 @@
   overflow: hidden;
 }
 
-/* Tabs arriba */
 .example-tabs {
   display: flex;
   background: #111827;
